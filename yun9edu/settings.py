@@ -54,7 +54,7 @@ ROOT_URLCONF = 'yun9edu.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/templates'],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'yun9edu.wsgi.application'
 
 DATABASES = {
     'default': {
-	'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'yun9edu',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
