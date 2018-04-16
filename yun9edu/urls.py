@@ -18,5 +18,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('clt/', include('weixinclient.urls',  namespace='weixinclient')),
+    path('clt/', include('weixinclient.urls')),
 ]
